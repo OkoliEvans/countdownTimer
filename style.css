@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "lato", system-ui;
+  box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+  background-image: url("./loadingcompass.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+    padding: 2rem;
+    word-spacing: 7px;
+}
+
+p {
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
