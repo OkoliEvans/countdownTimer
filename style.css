@@ -6,12 +6,22 @@
 
 body,html {
     background-image: url('./chess.jpg');
-    color: #fff;
+    color: white;
     font-family: 'Lato', system-ui;
     background-size: cover;
 }
 
+.event{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+#event {
+    color:aquamarine;
+}
 .container {
+    padding-top: -12rem;
     min-height: 100vh;
     display: flex;
     align-items: center;
