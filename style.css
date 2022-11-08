@@ -1,33 +1,47 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "lato", system-ui;
-  box-sizing: border-box;
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-body {
+body,html {
+    background-image: url('./chess.jpg');
     color: #fff;
-  background-image: url("./loadingcompass.gif");
-  background-repeat: no-repeat;
-  background-size: cover;
+    font-family: 'Lato', system-ui;
+    background-size: cover;
 }
 
 .container {
-   min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.units {
+    display: flex;
 }
 
 h1 {
     font-size: 3rem;
-    padding: 2rem;
     word-spacing: 7px;
+    padding: 2rem;
 }
 
-p {
+p{
     font-size: 2rem;
-    display: flex;
     justify-content: space-around;
     text-align: center;
+    font-weight: 700;
 }
+
+.event{
+    padding-top: 2rem;
+}
+
+.eventHeader {
+    color: aquamarine;
+}
+
+
